@@ -1,0 +1,31 @@
+<html lang="fr-FR">
+<head>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+    <title>Metaverse EPSI I1 DEV2 - Thomas TEXIER</title>
+</head>
+<body>
+
+<a-scene background="color: #D9F7F5">
+
+    <a-entity
+            animation-mixer
+            gltf-model="Assets/export.glb#1"
+            id="model"
+            position="0 0.8 -1">
+
+        <a-animation attribute="rotation" dur="5000" repeat="indefinite" to="0 360 0"></a-animation>
+
+    </a-entity>
+
+    <a-entity
+            animation-mixer
+            gltf-model="Assets/export.glb#2"
+            id="model"
+            position="0 0.8 -1">
+
+        <a-animation attribute="rotation" dur="3000" repeat="indefinite" to="0 180 0"></a-animation>
+
+    </a-entity>
+</a-scene>
+</body>
+</html>
